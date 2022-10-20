@@ -2,7 +2,7 @@
 /**
  * _printf - produces output according to a format.
  * @format: format string containing the characters.
- * Return: The count of chars in format
+ * Return: Pointer to valid function or NULL.
  */
 static int (*check_for_specifiers(const char *format))(va_list)
 {
